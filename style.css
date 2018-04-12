@@ -1,0 +1,96 @@
+
+html, body {
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1521128910265-6ff140fc4828?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c06ad70c519987718cea5005c2e49906&auto=format&fit=crop&w=1502&q=80");
+    background-size: cover;
+	background-color: #cccccc;
+	color: #333333;
+    z-index: -2;
+    text-align: center;
+}
+
+#jokeDisplay {
+    font-size: 2.9em;
+    opacity: 0.80;
+}
+
+hr { 
+    width: 50%;
+    color: #333333;
+    opacity: 0.5;
+    border-bottom: solid #333333;
+}
+
+#container {
+    height: 20em;
+    text-align: center;
+}
+
+h1, p {
+    max-width: 25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    margin: 40px auto;
+    line-height: 145%;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    z-index: -1;
+}
+
+.joke-btn {
+    text-decoration: none;
+    opacity: 0.6;
+	background-color: #333333;
+	color: #cccccc;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.joke-btn:hover {
+    background-color: #cccccc;
+    color: #333333;
+    opacity: 0.8;
+}
+
+h1::selection {
+	background: #333333;
+	color: #cccccc; 
+}
+
+h1::-moz-selection {
+	background: #333333;
+	color: #cccccc; 
+}
+
+div::selection {
+	background: #333333;
+	color: #cccccc; 
+}
+
+div::-moz-selection {
+	background: #333333;
+	color: #cccccc; 
+}
+
+p::selection {
+	background: #333333;
+	color: #cccccc; 
+}
+
+p::-moz-selection {
+	background: #333333;
+	color: #cccccc; 
+}
+
+button::selection {
+	background: #333333;
+	color: #cccccc; 
+}
+
+button::-moz-selection {
+	background: #333333;
+	color: #cccccc; 
+}
