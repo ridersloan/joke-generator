@@ -11,12 +11,16 @@
 <body>
     
     <div class="container">
-		<h1>Joke Generator</h1>
+		<h1 id="title">Joke Generator</h1>
 		<hr>
-		<div id="container">
+		<div class="jokeControl">
 			<p id="jokeDisplay"></p>
 			<button class="joke-btn" id="prevJoke">Previous Joke</button>
+			<button class="joke-btn" id="saveJoke">Save Joke</button>
 			<button class="joke-btn" id="nextJoke">Next Joke</button>
+		</div>
+		<div id="saved">
+			<ul id="list"></ul>
 		</div>
 	</div>
     

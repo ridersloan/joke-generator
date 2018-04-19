@@ -3,6 +3,7 @@ $(function() {
 	var pre = [];
 	var num = 0;
 	var cur;
+	var save;
 
 	$.ajax({
 		url: "https://icanhazdadjoke.com/",
@@ -33,6 +34,11 @@ $(function() {
 	$("#prevJoke").click(function() {
 		num--;
 		$("#jokeDisplay").text(pre[num]);
+	});
+
+	$("#saveJoke").click(function() {
+		save = '<li>' + String(pre[num]) + '</li>';
+		$("#list").append(save);
 	});
 
 });

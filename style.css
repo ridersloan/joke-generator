@@ -6,12 +6,13 @@ html, body {
 	background-color: #cccccc;
 	color: #333333;
     z-index: -2;
-    text-align: center;
+	text-align: center;
+	margin: 0;
 }
 
 #jokeDisplay {
-    font-size: 2.9em;
-    opacity: 0.80;
+	opacity: 0.80;
+	text-align: center;
 }
 
 hr { 
@@ -21,12 +22,18 @@ hr {
     border-bottom: solid #333333;
 }
 
-#container {
-    height: 20em;
-    text-align: center;
+.container {
+	background-color: #cccccc;
+	height: 20em;
+	text-align: center;
 }
 
-h1, p {
+.jokeControl {
+    height: 20em;
+	text-align: center;
+}
+
+p {
     max-width: 25em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
@@ -37,15 +44,24 @@ h1, p {
     z-index: -1;
 }
 
+#title {
+    max-width: 25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    margin: 40px auto;
+    line-height: 145%;
+    font-size: 2em;
+    font-variant: small-caps;
+    z-index: -1;
+}
+
 .joke-btn {
     text-decoration: none;
-    opacity: 0.6;
-	background-color: #333333;
+	background-color: #005599;
 	color: #cccccc;
     border: none;
     height: 40px;
     width: 100px;
-    border-radius: 10px;
     transition: 0.5s;
 }
 
